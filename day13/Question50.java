@@ -1,0 +1,22 @@
+package day13;
+
+import java.util.Scanner;
+
+public class Question50 {
+public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the size of array:");
+    int n = sc.nextInt();
+    int arr[] = new int[n];
+    int sum=0;
+    System.out.println("Enter array elements:");
+    for(int i =0;i<n;i++) {
+        arr[i] =sc.nextInt();
+        sum+=arr[i];
+    }
+    double Average = (double)sum / n;
+    System.out.println("Sum is:" + sum);
+    System.out.println("Average =" + Average);
+    sc.close();
+}
+}
