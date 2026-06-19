@@ -20,7 +20,19 @@ public class Question72 {
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
-            }
-        }
+                 }
+
     }
+    System.out.println("Thr sorted array is:");
+    for(int i = 0; i < n; i++) {
+        System.out.println(arr[i] + " ");
+    }
+    sc.close();
+    
 }
+}
+
+            
+        
+    
+
